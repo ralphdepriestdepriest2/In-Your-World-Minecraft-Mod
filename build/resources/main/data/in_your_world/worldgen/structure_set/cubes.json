@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "in_your_world:cubes",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 15,
+    "salt": 189220150
+  }
+}

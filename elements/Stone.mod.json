@@ -1,0 +1,35 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "stone",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 60,
+    "separation": 35,
+    "restrictionBiomes": [
+      {
+        "value": "grove"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "birch_forest"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "beard_box",
+    "generationStep": "RAW_GENERATION"
+  }
+}

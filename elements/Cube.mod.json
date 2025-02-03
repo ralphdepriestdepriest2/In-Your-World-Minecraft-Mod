@@ -1,0 +1,35 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "cube",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 38,
+    "separation": 12,
+    "restrictionBiomes": [
+      {
+        "value": "badlands"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "jungle"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "beard_box",
+    "generationStep": "RAW_GENERATION"
+  }
+}

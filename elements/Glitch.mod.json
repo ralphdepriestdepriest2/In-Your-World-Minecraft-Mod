@@ -1,0 +1,32 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "glitch",
+    "projection": "terrain_matching",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 38,
+    "separation": 19,
+    "restrictionBiomes": [
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "lush_caves"
+      },
+      {
+        "value": "dripstone_caves"
+      },
+      {
+        "value": "savanna"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "beard_box",
+    "generationStep": "UNDERGROUND_STRUCTURES"
+  }
+}

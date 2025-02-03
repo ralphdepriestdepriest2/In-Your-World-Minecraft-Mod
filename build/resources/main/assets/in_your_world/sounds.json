@@ -1,0 +1,98 @@
+{
+  "caminartierra": {
+    "sounds": [
+      {
+        "name": "in_your_world:walkingefectdirt",
+        "stream": false
+      }
+    ]
+  },
+  "caminarpiedra": {
+    "sounds": [
+      {
+        "name": "in_your_world:walkingstone",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-5": {
+    "sounds": [
+      {
+        "name": "in_your_world:minecraft-cave-sound-5",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-4": {
+    "sounds": [
+      {
+        "name": "in_your_world:minecraft-cave-sound-4",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-14": {
+    "sounds": [
+      {
+        "name": "in_your_world:minecraft-cave-sound-14",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-19": {
+    "sounds": [
+      {
+        "name": "in_your_world:minecraft-cave-sound-19",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-12": {
+    "sounds": [
+      {
+        "name": "in_your_world:minecraft-cave-sound-12",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-11": {
+    "sounds": [
+      {
+        "name": "in_your_world:minecraft-cave-sound-11",
+        "stream": false
+      }
+    ]
+  },
+  "cave-sound-7": {
+    "sounds": [
+      {
+        "name": "in_your_world:minecraft-cave-sound-7",
+        "stream": false
+      }
+    ]
+  },
+  "cueva21": {
+    "sounds": [
+      {
+        "name": "in_your_world:cueva21",
+        "stream": false
+      }
+    ]
+  },
+  "corriendo": {
+    "sounds": [
+      {
+        "name": "in_your_world:running",
+        "stream": false
+      }
+    ]
+  },
+  "cuevas": {
+    "sounds": [
+      {
+        "name": "in_your_world:cuevas8",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "dirt",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 55,
+    "separation": 35,
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "mutated_extreme_hills"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "jungle"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "terrainAdaptation": "beard_box",
+    "generationStep": "RAW_GENERATION"
+  }
+}

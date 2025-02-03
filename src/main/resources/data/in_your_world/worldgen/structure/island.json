@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "in_your_world:island",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "raw_generation",
+  "terrain_adaptation": "beard_box",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 180
+    },
+    "max_inclusive": {
+      "absolute": 201
+    }
+  },
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "savanna",
+    "savanna_plateau",
+    "meadow",
+    "snowy_taiga"
+  ],
+  "use_expansion_hack": false
+}

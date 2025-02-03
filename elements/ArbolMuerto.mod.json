@@ -1,0 +1,32 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "arbolmuerto",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 48,
+    "separation": 16,
+    "restrictionBiomes": [
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "snowy_tundra"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES"
+  }
+}

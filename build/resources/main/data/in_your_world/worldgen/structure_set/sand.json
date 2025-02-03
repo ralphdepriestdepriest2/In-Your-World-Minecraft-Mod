@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "in_your_world:sand",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 55,
+    "separation": 35,
+    "salt": 1704522779
+  }
+}

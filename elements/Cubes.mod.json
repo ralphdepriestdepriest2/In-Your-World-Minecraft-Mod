@@ -1,0 +1,41 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "cubes",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 40,
+    "separation": 15,
+    "restrictionBiomes": [
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "mutated_birch_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "swamp"
+      }
+    ],
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "terrainAdaptation": "beard_box",
+    "generationStep": "RAW_GENERATION"
+  }
+}

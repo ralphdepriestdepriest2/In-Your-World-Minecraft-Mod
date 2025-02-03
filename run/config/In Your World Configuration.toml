@@ -1,0 +1,135 @@
+
+["Night Global"]
+	#Maximum Ticks probability of event
+	"Night Max Probability" = 48000.0
+	#Minimum Ticks probability of event
+	"Night Min Probability" = 6000.0
+	#It is necessary to leave it enabled if you will change other values
+	"Random Night" = true
+
+["Player Bed Spawn"]
+	#Minimum probability of event
+	"Bed Minimum Spawn" = 1.0
+	#Maximum probability of event
+	"Bed Maximum Spawn" = 200.0
+
+["Chicken is attacked Spawn"]
+	#Minimum probability of event when Chicken is attacked
+	"Chicken Hurt Min Spawn" = 1.0
+	#Maximum probability of event when Chicken is attacked
+	"Chicken Hurt Max Spawn" = 30.0
+
+["Invisible Entity Attack"]
+	#Minimum Ticks probability of event
+	"Invisible Attack Min Spawn" = 16000.0
+	#Maximum Ticks probability of event
+	"Invisible Attack Max Spawn" = 40000.0
+	#Minimum Ticks probability of event
+	"Invisible Attack Min Despawn" = 400.0
+	#Maximum Ticks probability of event
+	"Invisible Attack Max Despawn" = 900.0
+	#If Invisible Entity attack to player then spawn Hijitus
+	"Min ProbabilitySpawnH" = 1.0
+	#If Invisible Entity attack to player then spawn Hijitus
+	"Max ProbabilitySpawnH" = 4.0
+	#It is necessary to leave this option activated to edit those that are related to this
+	"Enable Invisible Attack Entity?" = true
+
+["Fake Structures Spawn"]
+	#Spawn Fake Structure 1 - Global - For each tick!
+	"Min Spawn Fake Structure 1" = 6100.0
+	#Spawn Fake Structure 1 - Global - For each tick!
+	"Max Spawn Fake Structure 1" = 40000.0
+	#Spawn Fake Structure 2 - Global - For each tick!
+	"Min Spawn Fake Structure 2" = 6000.0
+	#Spawn Fake Structure 2 - Global - For each tick!
+	"Max Spawn Fake Structure 2" = 40000.0
+	#Fake structure 1 - Min - For each tick!
+	"Set the Min duration of the fake structure 1" = 1000.0
+	#Fake structure 1 - Max - For each tick!
+	"Set the Max duration of the fake structure 1" = 3500.0
+	#Fake structure 2 - Min - For each tick!
+	"Set the Min duration of the fake structure 2" = 1000.0
+	#Fake structure 2 - Max - For each tick!
+	"Set the Max duration of the fake structure 2" = 3500.0
+	#It is necessary to leave this option activated to edit those that are related to this
+	"Spawn Fake Structure Number 1?" = true
+	#It is necessary to leave this option activated to edit those that are related to this
+	"Spawn Fake Structure Number 2?" = true
+
+["Torches and Blocks"]
+	#Do you want the torches to despawn randomly? (Enabled by default)
+	"Despawn Torches?" = true
+	#How rare must it be? (The higher the number, the more common it will happen)
+	"Random Torch Despawn" = 0.28
+	#Despawn from the minimum time (ticksI)
+	"Min Torch Time Despawn" = 1200.0
+	#Despawn from the maximum time (ticksI)
+	"Max Torch Time Despawn" = 6000.0
+	#Do you want the wooden blocks to despawn randomly? (Enabled by default)
+	"Despawn Wooden Blocks?" = true
+	#How rare must it be? (The higher the number, the more common it will happen)
+	"Random Wooden Blocks Despawn" = 0.007
+	#Despawn from the minimum time (ticksI)
+	"Min Wooden Blocks Time Despawn" = 1200.0
+	#Despawn from the maximum time (ticksI)
+	"Max Wooden Blocks Time Despawn" = 6000.0
+
+[Hijitus]
+	#Despawn Hijitus after the attack?
+	"Despawn Hijitus" = true
+	#Start counting the despawn time from (ticks)
+	"Despawn Hijitus Min" = 100.0
+	#End time to despawn on (ticks)
+	"Despawn Hijitus Max" = 0.0
+	"Enable Despawn Hijitus Timer?" = true
+	#This is only activated on the cobblestone structure when the player is nearby.
+	"Activate Darkness and Blindness?" = true
+
+["Flying Invisible Stalker Entity"]
+	#Spawn probability between (min ticks)
+	"Min Spawn Invisible Stalker Entity" = 8400.0
+	#Spawn probability between (max ticks)
+	"Max Spawn Invisible Stalker Entity" = 24000.0
+	#Spawn Invisible Flying Entity Stalker randomly in your world??
+	"Spawn Invisible Flying Entity Stalker?" = true
+	#If the entity is close to the player within X blocks spanning all distances (a giant invisible cube) the invisible flying entity will despawn
+	"Despawn Invisible Flying Stalker around the player in the distance of" = 45.0
+	#Despawn since minimum time
+	"Despawn Invisible Flying Entity Stalker Min" = 500.0
+	#until maximum time 
+	"Despawn Invisible Flying Entity Stalker Max" = 800.0
+	"Enable Despawn Invisible Flying Entity Stalker?" = true
+
+["Hijitus Stalker Island"]
+	#If the entity is close to the player within X blocks spanning all distances (a giant invisible cube) the entity will despawn
+	"Despawn Hijitus Stalker Island around the player in the distance" = 110.0
+
+["Sounds  - Global"]
+	#Minimum probability of event
+	"Sounds Min Probability" = 1.0
+	#Maximum probability of event
+	"Sounds Max Probability" = 300.0
+	#It is necessary to leave it enabled if you will change other values
+	"Enable Mod Sounds?" = true
+	#This sound pack will be heard when the player is not inside a cave, structure or underground. The higher the number, the more frequent it will be for the player
+	"Sounds 1: How often will the sounds be heard? " = 0.008
+	#This sound pack will be heard when the player is inside a cave, structure, or underground. The higher the number, the more frequent it will be for the player.
+	"Sounds 2: How often will the sounds be heard? " = 0.005
+	#This sound pack will be heard when the player is inside a cave, structure, or underground. The higher the number, the more frequent it will be for the player.
+	"Sounds 3: How often will the sounds be heard? " = 0.008
+
+["Stalker Entity"]
+	#Spawn Invisible Entity Stalker randomly in your world??
+	"Enable Stalker Entity?" = true
+	#For each tick.
+	"Stalker Min Probability Spawn" = 6000.0
+	#For each tick.
+	"Stalker Max Probability Spawn" = 40000.0
+	#This probability starts from 1. This is connected to the tick setting. This not use ticks!
+	"Stalker Max Random Spawn" = 3.0
+	#For each tick.
+	"Stalker Min Probability" = 500.0
+	#For each tick.
+	"Stalker Max Probability" = 800.0
+

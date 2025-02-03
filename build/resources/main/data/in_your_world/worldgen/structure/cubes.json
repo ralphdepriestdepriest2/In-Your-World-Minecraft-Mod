@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "in_your_world:cubes",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "raw_generation",
+  "terrain_adaptation": "beard_box",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 180
+    },
+    "max_inclusive": {
+      "absolute": 201
+    }
+  },
+  "biomes": [
+    "sunflower_plains",
+    "jungle",
+    "birch_forest",
+    "old_growth_birch_forest",
+    "forest",
+    "old_growth_spruce_taiga",
+    "swamp"
+  ],
+  "use_expansion_hack": false
+}

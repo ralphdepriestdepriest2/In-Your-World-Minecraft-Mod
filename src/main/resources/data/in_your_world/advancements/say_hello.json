@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "advancements.say_hello.title"
+    },
+    "description": {
+      "translate": "advancements.say_hello.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "say_hello": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "in_your_world:behind"
+}

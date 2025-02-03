@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "in_your_world:glitch",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 38,
+    "separation": 19,
+    "salt": 1475451520
+  }
+}

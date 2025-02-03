@@ -1,0 +1,977 @@
+{
+  "_fv": 57,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "Night Global",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 48000.0,
+            "textDefault": "",
+            "comment": "Maximum Ticks probability of event",
+            "vardisplay": "Night Max Probability",
+            "varname": "NightMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6000.0,
+            "textDefault": "",
+            "comment": "Minimum Ticks probability of event",
+            "vardisplay": "Night Min Probability",
+            "varname": "NightMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave it enabled if you will change other values",
+            "vardisplay": "Random Night",
+            "varname": "ActivateNight",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Sounds  - Global",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Minimum probability of event",
+            "vardisplay": "Sounds Min Probability",
+            "varname": "SonidosMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 300.0,
+            "textDefault": "",
+            "comment": "Maximum probability of event",
+            "vardisplay": "Sounds Max Probability",
+            "varname": "SonidosMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave it enabled if you will change other values",
+            "vardisplay": "Enable Mod Sounds?",
+            "varname": "ActivateSounds",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.008,
+            "textDefault": "",
+            "comment": "This sound pack will be heard when the player is not inside a cave, structure or underground. The higher the number, the more frequent it will be for the player",
+            "vardisplay": "Sounds 1: How often will the sounds be heard? ",
+            "varname": "FrecuenciaSonidos",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.005,
+            "textDefault": "",
+            "comment": "This sound pack will be heard when the player is inside a cave, structure, or underground. The higher the number, the more frequent it will be for the player.",
+            "vardisplay": "Sounds 2: How often will the sounds be heard? ",
+            "varname": "FrecuenciaSonidos2",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.008,
+            "textDefault": "",
+            "comment": "This sound pack will be heard when the player is inside a cave, structure, or underground. The higher the number, the more frequent it will be for the player.",
+            "vardisplay": "Sounds 3: How often will the sounds be heard? ",
+            "varname": "FrecuenciaSonidos3",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Player Bed Spawn",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Minimum probability of event",
+            "vardisplay": "Bed Minimum Spawn",
+            "varname": "ChickenBenMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 200.0,
+            "textDefault": "",
+            "comment": "Maximum probability of event",
+            "vardisplay": "Bed Maximum Spawn",
+            "varname": "ChickenBenMax",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Chicken is attacked Spawn",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "Minimum probability of event when Chicken is attacked",
+            "vardisplay": "Chicken Hurt Min Spawn",
+            "varname": "ChickenHurtMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 30.0,
+            "textDefault": "",
+            "comment": "Maximum probability of event when Chicken is attacked",
+            "vardisplay": "Chicken Hurt Max Spawn",
+            "varname": "ChickenHurtMax",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Invisible Entity Attack",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 16000.0,
+            "textDefault": "",
+            "comment": "Minimum Ticks probability of event",
+            "vardisplay": "Invisible Attack Min Spawn",
+            "varname": "InvisibleAtaqueMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 40000.0,
+            "textDefault": "",
+            "comment": "Maximum Ticks probability of event",
+            "vardisplay": "Invisible Attack Max Spawn",
+            "varname": "InvisibleAtaqueMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 400.0,
+            "textDefault": "",
+            "comment": "Minimum Ticks probability of event",
+            "vardisplay": "Invisible Attack Min Despawn",
+            "varname": "InvisibleAtaqueDesMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 900.0,
+            "textDefault": "",
+            "comment": "Maximum Ticks probability of event",
+            "vardisplay": "Invisible Attack Max Despawn",
+            "varname": "InvisibleAtaqueDesMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1.0,
+            "textDefault": "",
+            "comment": "If Invisible Entity attack to player then spawn Hijitus",
+            "vardisplay": "Min ProbabilitySpawnH",
+            "varname": "ProbSpawnAHMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 4.0,
+            "textDefault": "",
+            "comment": "If Invisible Entity attack to player then spawn Hijitus",
+            "vardisplay": "Max ProbabilitySpawnH",
+            "varname": "ProbSpawnAHMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave this option activated to edit those that are related to this",
+            "vardisplay": "Enable Invisible Attack Entity?",
+            "varname": "HabilitarAtaque",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Fake Structures Spawn",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6100.0,
+            "textDefault": "",
+            "comment": "Spawn Fake Structure 1 - Global - For each tick!",
+            "vardisplay": "Min Spawn Fake Structure 1",
+            "varname": "Global1FakeMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 40000.0,
+            "textDefault": "",
+            "comment": "Spawn Fake Structure 1 - Global - For each tick!",
+            "vardisplay": "Max Spawn Fake Structure 1",
+            "varname": "Global1FakeMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6000.0,
+            "textDefault": "",
+            "comment": "Spawn Fake Structure 2 - Global - For each tick!",
+            "vardisplay": "Min Spawn Fake Structure 2",
+            "varname": "Global2FakeMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 40000.0,
+            "textDefault": "",
+            "comment": "Spawn Fake Structure 2 - Global - For each tick!",
+            "vardisplay": "Max Spawn Fake Structure 2",
+            "varname": "Global2FakeMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1000.0,
+            "textDefault": "",
+            "comment": "Fake structure 1 - Min - For each tick!",
+            "vardisplay": "Set the Min duration of the fake structure 1",
+            "varname": "Duration1Min",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3500.0,
+            "textDefault": "",
+            "comment": "Fake structure 1 - Max - For each tick!",
+            "vardisplay": "Set the Max duration of the fake structure 1",
+            "varname": "Duration1Max",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1000.0,
+            "textDefault": "",
+            "comment": "Fake structure 2 - Min - For each tick!",
+            "vardisplay": "Set the Min duration of the fake structure 2",
+            "varname": "Duration2Min",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3500.0,
+            "textDefault": "",
+            "comment": "Fake structure 2 - Max - For each tick!",
+            "vardisplay": "Set the Max duration of the fake structure 2",
+            "varname": "Duration2Max",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave this option activated to edit those that are related to this",
+            "vardisplay": "Spawn Fake Structure Number 1?",
+            "varname": "SpawnEstructuraFalsa",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "It is necessary to leave this option activated to edit those that are related to this",
+            "vardisplay": "Spawn Fake Structure Number 2?",
+            "varname": "SpawnEstructuraFalsa2",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Torches and Blocks",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Do you want the torches to despawn randomly? (Enabled by default)",
+            "vardisplay": "Despawn Torches?",
+            "varname": "Torch",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.28,
+            "textDefault": "",
+            "comment": "How rare must it be? (The higher the number, the more common it will happen)",
+            "vardisplay": "Random Torch Despawn",
+            "varname": "RandomTorch",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1200.0,
+            "textDefault": "",
+            "comment": "Despawn from the minimum time (ticksI)",
+            "vardisplay": "Min Torch Time Despawn",
+            "varname": "RandomTorchTimeMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6000.0,
+            "textDefault": "",
+            "comment": "Despawn from the maximum time (ticksI)",
+            "vardisplay": "Max Torch Time Despawn",
+            "varname": "RandomTorchTimeMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Do you want the wooden blocks to despawn randomly? (Enabled by default)",
+            "vardisplay": "Despawn Wooden Blocks?",
+            "varname": "Blocks",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.007,
+            "textDefault": "",
+            "comment": "How rare must it be? (The higher the number, the more common it will happen)",
+            "vardisplay": "Random Wooden Blocks Despawn",
+            "varname": "RandomBlock",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 1200.0,
+            "textDefault": "",
+            "comment": "Despawn from the minimum time (ticksI)",
+            "vardisplay": "Min Wooden Blocks Time Despawn",
+            "varname": "RandomBlockTimeMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6000.0,
+            "textDefault": "",
+            "comment": "Despawn from the maximum time (ticksI)",
+            "vardisplay": "Max Wooden Blocks Time Despawn",
+            "varname": "RandomBlockTimeMax",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Hijitus",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Despawn Hijitus after the attack?",
+            "vardisplay": "Despawn Hijitus",
+            "varname": "DespawnHijitus",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 100.0,
+            "textDefault": "",
+            "comment": "Start counting the despawn time from (ticks)",
+            "vardisplay": "Despawn Hijitus Min",
+            "varname": "DespawnHMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "End time to despawn on (ticks)",
+            "vardisplay": "Despawn Hijitus Max",
+            "varname": "DespawnHMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "Enable Despawn Hijitus Timer?",
+            "varname": "DespawnHijitusTimer",
+            "enablecomment": false
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "This is only activated on the cobblestone structure when the player is nearby.",
+            "vardisplay": "Activate Darkness and Blindness?",
+            "varname": "EfectoDark",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Flying Invisible Stalker Entity",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 8400.0,
+            "textDefault": "",
+            "comment": "Spawn probability between (min ticks)",
+            "vardisplay": "Min Spawn Invisible Stalker Entity",
+            "varname": "InvisibleSpawnStalkerMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 24000.0,
+            "textDefault": "",
+            "comment": "Spawn probability between (max ticks)",
+            "vardisplay": "Max Spawn Invisible Stalker Entity",
+            "varname": "InvisibleSpawnStalkerMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Spawn Invisible Flying Entity Stalker randomly in your world??",
+            "vardisplay": "Spawn Invisible Flying Entity Stalker?",
+            "varname": "SpawnFlyingInvisible",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 45.0,
+            "textDefault": "",
+            "comment": "If the entity is close to the player within X blocks spanning all distances (a giant invisible cube) the invisible flying entity will despawn",
+            "vardisplay": "Despawn Invisible Flying Stalker around the player in the distance of",
+            "varname": "DespawnAround",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 500.0,
+            "textDefault": "",
+            "comment": "Despawn since minimum time",
+            "vardisplay": "Despawn Invisible Flying Entity Stalker Min",
+            "varname": "InvisibleStalkDespawnMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 800.0,
+            "textDefault": "",
+            "comment": "until maximum time ",
+            "vardisplay": "Despawn Invisible Flying Entity Stalker Max",
+            "varname": "InvisibleStalkDespawnMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Enable Despawn Invisible Flying Entity Stalker??",
+            "vardisplay": "Enable Despawn Invisible Flying Entity Stalker?",
+            "varname": "EnableDespawn",
+            "enablecomment": false
+          }
+        ]
+      },
+      {
+        "category": "Hijitus Stalker Island",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 110.0,
+            "textDefault": "",
+            "comment": "If the entity is close to the player within X blocks spanning all distances (a giant invisible cube) the entity will despawn",
+            "vardisplay": "Despawn Hijitus Stalker Island around the player in the distance",
+            "varname": "DespawnAroundH",
+            "enablecomment": true
+          }
+        ]
+      },
+      {
+        "category": "Stalker Entity",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "Spawn Invisible Entity Stalker randomly in your world??",
+            "vardisplay": "Enable Stalker Entity?",
+            "varname": "EnableStalker",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 6000.0,
+            "textDefault": "",
+            "comment": "For each tick.",
+            "vardisplay": "Stalker Min Probability Spawn",
+            "varname": "StalkerMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 40000.0,
+            "textDefault": "",
+            "comment": "For each tick.",
+            "vardisplay": "Stalker Max Probability Spawn",
+            "varname": "StalkerMax",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 3.0,
+            "textDefault": "",
+            "comment": "This probability starts from 1. This is connected to the tick setting. This not use ticks!",
+            "vardisplay": "Stalker Max Random Spawn",
+            "varname": "StalkerMaxProbability",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 500.0,
+            "textDefault": "",
+            "comment": "For each tick.",
+            "vardisplay": "Stalker Min Probability",
+            "varname": "StalkerDespawnMin",
+            "enablecomment": true
+          },
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 1,
+            "block": {
+              "value": ""
+            },
+            "logicField": 0,
+            "numberField": 800.0,
+            "textDefault": "",
+            "comment": "For each tick.",
+            "vardisplay": "Stalker Max Probability",
+            "varname": "StalkerDespawnMax",
+            "enablecomment": true
+          }
+        ]
+      }
+    ],
+    "file": "In Your World Configuration",
+    "configType": 0
+  }
+}
