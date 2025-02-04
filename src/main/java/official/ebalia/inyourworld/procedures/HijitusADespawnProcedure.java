@@ -33,7 +33,7 @@ public class HijitusADespawnProcedure {
 		if (ConfiguracionConfiguration.DESPAWNHIJITUSTIMER.get()) {
 			if (entity instanceof HijitusAtaqueEntity) {
 				InYourWorldMod.queueServerWork(Mth.nextInt(RandomSource.create(), (int) (double) ConfiguracionConfiguration.DESPAWNHMIN.get(), (int) (double) ConfiguracionConfiguration.DESPAWNHMAX.get()), () -> {
-					if (!entity.level.isClientSide())
+					if (!entity.level().isClientSide())
 						entity.discard();
 				});
 			}

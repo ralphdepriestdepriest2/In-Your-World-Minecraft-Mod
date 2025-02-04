@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 public class DespawnDarkProcedure {
 	@SubscribeEvent
 	public static void onEntityTick(LivingEvent.LivingTickEvent event) {
-		execute(event, event.getEntity().level, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
+		execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity());
 	}
 
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -31,7 +31,7 @@ public class DespawnDarkProcedure {
 			return;
 		if (entity instanceof InvisibleCobblestoneEntity) {
 			if (!(!world.getEntitiesOfClass(HijitusEntity.class, AABB.ofSize(new Vec3(x, y, z), 50, 50, 50), e -> true).isEmpty())) {
-				if (!entity.level.isClientSide())
+				if (!entity.level().isClientSide())
 					entity.discard();
 			}
 		}

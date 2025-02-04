@@ -1,57 +1,278 @@
-[03Feb2025 17:15:44.337] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 3, --assetsDir, C:\Users\PC\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 45.2.0, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
-[03Feb2025 17:15:44.343] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[03Feb2025 17:15:44.463] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/PC/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
-[03Feb2025 17:15:44.721] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PC\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.4-45.2.0\4f662c5cd3f9e4e4cc26f71b680a1afbabc78a63\javafmllanguage-1.19.4-45.2.0.jar is missing mods.toml file
-[03Feb2025 17:15:44.724] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PC\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.4-45.2.0\451faeb5cd48f7654e1e93ef972c9021a88675aa\lowcodelanguage-1.19.4-45.2.0.jar is missing mods.toml file
-[03Feb2025 17:15:44.727] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PC\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.4-45.2.0\fff126d3881d18dc93e69cdd3d466aed03c4f69b\mclanguage-1.19.4-45.2.0.jar is missing mods.toml file
-[03Feb2025 17:15:44.729] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PC\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.4-45.2.0\8485610a99f35fcaa03953eb85f156995ebed3c4\fmlcore-1.19.4-45.2.0.jar is missing mods.toml file
-[03Feb2025 17:15:44.799] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[03Feb2025 17:15:45.861] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[03Feb2025 17:15:45.862] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\PC\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 3]
-[03Feb2025 17:15:45.924] [main/WARN] [mixin/]: Reference map 'configured.refmap.json' for configured.mixins.json could not be read. If this is a development environment you can ignore this message
-[03Feb2025 17:15:46.156] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\PC\Desktop\mundos recuperados\in_your_world/build/createSrgToMcp/output.srg
-[03Feb2025 17:15:48.916] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 180 Datafixer optimizations took 108 milliseconds
-[03Feb2025 17:15:50.587] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/PC/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.4-45.2.0_mapped_official_1.19.4/forge-1.19.4-45.2.0_mapped_official_1.19.4-recomp.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[03Feb2025 17:15:50.588] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/PC/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.4-45.2.0_mapped_official_1.19.4/forge-1.19.4-45.2.0_mapped_official_1.19.4-recomp.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[03Feb2025 17:15:50.606] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03Feb2025 17:15:50.610] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[03Feb2025 17:15:50.714] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[03Feb2025 17:15:51.152] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.2.0, for MC 1.19.4 with MCP 20230314.122934
-[03Feb2025 17:15:51.152] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.2.0 Initialized
-[03Feb2025 17:15:52.131] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[03Feb2025 17:15:52.407] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[03Feb2025 17:15:52.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
-[03Feb2025 17:15:53.871] [Render thread/INFO] [configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.forge.ForgeConfigProvider
-[03Feb2025 17:15:53.872] [Render thread/INFO] [configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.simple.SimpleConfigProvider
-[03Feb2025 17:15:53.872] [Render thread/INFO] [configured/]: Successfully loaded config provider: com.mrcrayfish.configured.impl.jei.JeiConfigProvider
-[03Feb2025 17:15:53.872] [Render thread/INFO] [configured/]: Creating config GUI factories...
-[03Feb2025 17:15:53.875] [Render thread/INFO] [configured/]: Registering config factory for mod configured. Found 2 config(s)
-[03Feb2025 17:15:53.879] [Render thread/INFO] [configured/]: Registering config factory for mod in_your_world. Found 1 config(s)
-[03Feb2025 17:15:53.879] [Render thread/INFO] [configured/]: Registering config factory for mod forge. Found 3 config(s)
-[03Feb2025 17:15:54.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.1.1 Target: 2.1.1
-[03Feb2025 17:15:54.058] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[03Feb2025 17:15:54.774] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 45.2.0 Target: 45.3.0
-[03Feb2025 17:15:54.868] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brushing
-[03Feb2025 17:15:54.868] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brush_sand_completed
-[03Feb2025 17:15:54.868] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[03Feb2025 17:15:54.869] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[03Feb2025 17:15:54.869] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music.overworld.cherry_grove
-[03Feb2025 17:15:54.951] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
-[03Feb2025 17:15:54.952] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[03Feb2025 17:15:55.004] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
-[03Feb2025 17:15:55.016] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[03Feb2025 17:15:55.016] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[03Feb2025 17:15:55.017] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[03Feb2025 17:15:55.017] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[03Feb2025 17:15:55.029] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[03Feb2025 17:15:55.030] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[03Feb2025 17:15:55.030] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[03Feb2025 17:15:55.030] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[03Feb2025 17:15:55.280] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[03Feb2025 17:15:55.431] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[03Feb2025 17:15:55.433] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[03Feb2025 17:15:55.434] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[03Feb2025 17:15:55.827] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[03Feb2025 17:16:52.180] [Render thread/INFO] [configured/]: Started editing 'In Your World Configuration.toml'
-[03Feb2025 17:17:07.302] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[03Feb2025 17:17:07.304] [Render thread/INFO] [configured/]: Stopped editing 'In Your World Configuration.toml'
+[03Feb2025 20:07:15.213] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\PC\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[03Feb2025 20:07:15.217] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[03Feb2025 20:07:15.345] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\PC\Desktop\mundos recuperados\in_your_world\run\config\fml.toml is not correct. Correcting
+[03Feb2025 20:07:15.347] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowHeight] was corrected from null to 480
+[03Feb2025 20:07:15.347] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowFBScale] was corrected from null to 1
+[03Feb2025 20:07:15.348] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowProvider] was corrected from null to fmlearlywindow
+[03Feb2025 20:07:15.348] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowWidth] was corrected from null to 854
+[03Feb2025 20:07:15.348] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowMaximized] was corrected from null to false
+[03Feb2025 20:07:15.348] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[03Feb2025 20:07:15.349] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowControl] was corrected from null to true
+[03Feb2025 20:07:15.349] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[03Feb2025 20:07:15.349] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [splashscreen] was corrected from true to null
+[03Feb2025 20:07:15.364] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[03Feb2025 20:07:15.444] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[03Feb2025 20:07:15.528] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[03Feb2025 20:07:15.620] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/PC/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[03Feb2025 20:07:15.635] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon(TM) Graphics GL version 4.6.0 Core Profile Context 22.40.46.230328, ATI Technologies Inc.
+[03Feb2025 20:07:15.884] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PC\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03Feb2025 20:07:15.887] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PC\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03Feb2025 20:07:15.889] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PC\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[03Feb2025 20:07:15.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\PC\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[03Feb2025 20:07:16.037] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[03Feb2025 20:07:17.244] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Feb2025 20:07:17.247] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\PC\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[03Feb2025 20:07:17.489] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\PC\Desktop\mundos recuperados\in_your_world/build/createSrgToMcp/output.srg
+[03Feb2025 20:07:20.405] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 147 milliseconds
+[03Feb2025 20:07:21.997] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/PC/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[03Feb2025 20:07:21.998] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/PC/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[03Feb2025 20:07:22.014] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03Feb2025 20:07:22.018] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03Feb2025 20:07:22.154] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[03Feb2025 20:07:22.398] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[03Feb2025 20:07:22.400] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[03Feb2025 20:07:23.253] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[03Feb2025 20:07:23.517] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[03Feb2025 20:07:23.543] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\PC\Desktop\mundos recuperados\in_your_world\run\config\forge-client.toml is not correct. Correcting
+[03Feb2025 20:07:23.544] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.calculateAllNormals was corrected from null to its default, false. 
+[03Feb2025 20:07:23.544] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.stabilizeDirectionGetNearest was corrected from null to its default, true. 
+[03Feb2025 20:07:23.651] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03Feb2025 20:07:23.666] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[03Feb2025 20:07:24.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[03Feb2025 20:07:25.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[03Feb2025 20:07:25.645] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[03Feb2025 20:07:25.673] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[03Feb2025 20:07:25.674] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[03Feb2025 20:07:25.765] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[03Feb2025 20:07:25.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[03Feb2025 20:07:25.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[03Feb2025 20:07:25.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[03Feb2025 20:07:25.772] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[03Feb2025 20:07:25.778] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[03Feb2025 20:07:25.778] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[03Feb2025 20:07:25.778] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[03Feb2025 20:07:25.779] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[03Feb2025 20:07:25.910] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[03Feb2025 20:07:26.004] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[03Feb2025 20:07:26.005] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[03Feb2025 20:07:26.005] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[03Feb2025 20:07:26.333] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[03Feb2025 20:09:05.540] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+configured (version 2.1.1 -> MISSING)
+forge (version 45.2.0 -> 47.2.0)
+geckolib (version 4.2 -> 4.4.2)
+Things may not work well.
+[03Feb2025 20:09:05.545] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[03Feb2025 20:09:05.600] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world geckolib:pistol
+[03Feb2025 20:09:05.631] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world minecraft:pottery_shard_archer
+[03Feb2025 20:09:05.631] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world minecraft:pottery_shard_arms_up
+[03Feb2025 20:09:05.632] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world minecraft:pottery_shard_prize
+[03Feb2025 20:09:05.632] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Found a missing id from the world minecraft:pottery_shard_skull
+[03Feb2025 20:09:05.698] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Found a missing id from the world minecraft:item.brush.brush_sand_completed
+[03Feb2025 20:09:05.698] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Found a missing id from the world minecraft:item.brush.brushing
+[03Feb2025 20:09:05.701] [Render thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Found a missing id from the world minecraft:music.overworld.jungle_and_forest
+[03Feb2025 20:09:05.707] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	geckolib:pistol: 1231
+	minecraft:pottery_shard_archer: 1224
+	minecraft:pottery_shard_arms_up: 1226
+	minecraft:pottery_shard_prize: 1225
+	minecraft:pottery_shard_skull: 1227
+
+[03Feb2025 20:09:05.709] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	minecraft:item.brush.brush_sand_completed: 167
+	minecraft:item.brush.brushing: 166
+	minecraft:music.overworld.jungle_and_forest: 804
+
+[03Feb2025 20:09:05.709] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 8 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[03Feb2025 20:09:05.710] [Render thread/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    minecraft:item.brush.brush_sand_completed
+    minecraft:item.brush.brushing
+    minecraft:music.overworld.jungle_and_forest
+
+Missing minecraft:item:
+    geckolib:pistol
+    minecraft:pottery_shard_archer
+    minecraft:pottery_shard_arms_up
+    minecraft:pottery_shard_prize
+    minecraft:pottery_shard_skull
+
+
+[03Feb2025 20:09:05.710] [Render thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:suspicious_gravel Expected: 38 Got: 1000
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:pitcher_crop Expected: 599 Got: 1001
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:pitcher_plant Expected: 600 Got: 1002
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:sniffer_egg Expected: 682 Got: 1003
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: minecraft:calibrated_sculk_sensor Expected: 914 Got: 1004
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:suspicious_gravel Expected: 46 Got: 1248
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:pitcher_plant Expected: 210 Got: 1249
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:sniffer_egg Expected: 566 Got: 1250
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:calibrated_sculk_sensor Expected: 654 Got: 1251
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:pitcher_pod Expected: 1107 Got: 1252
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:music_disc_relic Expected: 1135 Got: 1253
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:wayfinder_armor_trim_smithing_template Expected: 1230 Got: 1254
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:shaper_armor_trim_smithing_template Expected: 1231 Got: 1255
+[03Feb2025 20:09:05.711] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:silence_armor_trim_smithing_template Expected: 1232 Got: 1256
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:raiser_armor_trim_smithing_template Expected: 1233 Got: 1257
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:host_armor_trim_smithing_template Expected: 1234 Got: 1258
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:angler_pottery_sherd Expected: 1235 Got: 1259
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:archer_pottery_sherd Expected: 1236 Got: 1260
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:arms_up_pottery_sherd Expected: 1237 Got: 1261
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:blade_pottery_sherd Expected: 1238 Got: 1262
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:brewer_pottery_sherd Expected: 1239 Got: 1263
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:burn_pottery_sherd Expected: 1240 Got: 1264
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:danger_pottery_sherd Expected: 1241 Got: 1265
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:explorer_pottery_sherd Expected: 1242 Got: 1266
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:friend_pottery_sherd Expected: 1243 Got: 1267
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:heart_pottery_sherd Expected: 1244 Got: 1268
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:heartbreak_pottery_sherd Expected: 1245 Got: 1269
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:howl_pottery_sherd Expected: 1246 Got: 1270
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:miner_pottery_sherd Expected: 1247 Got: 1271
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:mourner_pottery_sherd Expected: 1248 Got: 1272
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:plenty_pottery_sherd Expected: 1249 Got: 1273
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:prize_pottery_sherd Expected: 1250 Got: 1274
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:sheaf_pottery_sherd Expected: 1251 Got: 1275
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:shelter_pottery_sherd Expected: 1252 Got: 1276
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:skull_pottery_sherd Expected: 1253 Got: 1277
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: minecraft:snort_pottery_sherd Expected: 1254 Got: 1278
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.amethyst_block.resonate Expected: 34 Got: 1467
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:item.brush.brushing.generic Expected: 167 Got: 1468
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:item.brush.brushing.sand Expected: 168 Got: 1469
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:item.brush.brushing.gravel Expected: 169 Got: 1470
+[03Feb2025 20:09:05.712] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:item.brush.brushing.sand.complete Expected: 170 Got: 1471
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:item.brush.brushing.gravel.complete Expected: 171 Got: 1472
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.suspicious_gravel.break Expected: 482 Got: 1473
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.suspicious_gravel.step Expected: 483 Got: 1474
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.suspicious_gravel.place Expected: 484 Got: 1475
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.suspicious_gravel.hit Expected: 485 Got: 1476
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.suspicious_gravel.fall Expected: 486 Got: 1477
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:music_disc.relic Expected: 801 Got: 1478
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:music.overworld.forest Expected: 814 Got: 1479
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:music.overworld.flower_forest Expected: 824 Got: 1480
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:music.overworld.desert Expected: 825 Got: 1481
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:music.overworld.badlands Expected: 826 Got: 1482
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:music.overworld.jungle Expected: 827 Got: 1483
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:music.overworld.sparse_jungle Expected: 828 Got: 1484
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:music.overworld.bamboo_jungle Expected: 829 Got: 1485
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.sniffer_egg.plop Expected: 1238 Got: 1486
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.sniffer_egg.crack Expected: 1239 Got: 1487
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.sniffer_egg.hatch Expected: 1240 Got: 1488
+[03Feb2025 20:09:05.714] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: minecraft:block.sign.waxed_interact_fail Expected: 1393 Got: 1489
+[03Feb2025 20:09:06.123] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:configured
+[03Feb2025 20:09:07.310] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[03Feb2025 20:09:07.393] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
+[03Feb2025 20:09:07.749] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[03Feb2025 20:09:07.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Feb2025 20:09:08.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Feb2025 20:09:11.037] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 20:09:11.037] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 20:09:11.037] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 20:09:11.037] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 20:09:11.037] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 20:09:11.127] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 20:09:11.620] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[03Feb2025 20:09:12.131] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
+[03Feb2025 20:09:12.155] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Feb2025 20:09:12.169] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3549 ms
+[03Feb2025 20:09:12.372] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[03Feb2025 20:09:12.374] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[03Feb2025 20:09:12.440] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[03Feb2025 20:09:12.847] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[03Feb2025 20:09:12.897] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:56604bf1] logged in with entity id 228 at (-6.293401888182092, 97.0, 4.872456320203789)
+[03Feb2025 20:09:12.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[03Feb2025 20:09:13.287] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4 advancements
+[03Feb2025 20:09:13.449] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Feb2025 20:09:13.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:overworld
+[03Feb2025 20:09:14.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:the_nether
+[03Feb2025 20:09:14.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:the_end
+[03Feb2025 20:09:55.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dev> hello
+[03Feb2025 20:09:55.116] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <Dev> hello
+[03Feb2025 20:09:56.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dev> hola
+[03Feb2025 20:09:56.933] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <Dev> hola
+[03Feb2025 20:09:57.305] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Feb2025 20:09:57.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:overworld
+[03Feb2025 20:09:57.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:the_nether
+[03Feb2025 20:09:57.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:the_end
+[03Feb2025 20:09:57.868] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[03Feb2025 20:09:57.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[03Feb2025 20:09:57.877] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[03Feb2025 20:09:57.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Feb2025 20:09:57.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Feb2025 20:09:57.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Feb2025 20:09:58.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:overworld
+[03Feb2025 20:09:59.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:the_nether
+[03Feb2025 20:09:59.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldhgfhgf]'/minecraft:the_end
+[03Feb2025 20:09:59.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New Worldhgfhgf): All chunks are saved
+[03Feb2025 20:09:59.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Feb2025 20:09:59.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Feb2025 20:09:59.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03Feb2025 20:10:04.752] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level New Worldhgfhgf
+[03Feb2025 20:10:04.752] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[03Feb2025 20:10:05.592] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[03Feb2025 20:10:05.619] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1275 advancements
+[03Feb2025 20:10:08.884] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[03Feb2025 20:10:08.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[03Feb2025 20:10:08.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New Worldt543\serverconfig\forge-server.toml is not correct. Correcting
+[03Feb2025 20:10:08.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03Feb2025 20:10:08.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[03Feb2025 20:10:08.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[03Feb2025 20:10:08.927] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[03Feb2025 20:10:08.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[03Feb2025 20:10:08.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[03Feb2025 20:10:08.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[03Feb2025 20:10:08.928] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[03Feb2025 20:10:10.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[03Feb2025 20:10:11.259] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 20:10:11.419] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[03Feb2025 20:10:11.922] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[03Feb2025 20:10:12.424] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[03Feb2025 20:10:12.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[03Feb2025 20:10:13.416] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[03Feb2025 20:10:13.917] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[03Feb2025 20:10:14.420] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[03Feb2025 20:10:14.917] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[03Feb2025 20:10:15.433] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
+[03Feb2025 20:10:15.916] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[03Feb2025 20:10:16.426] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[03Feb2025 20:10:16.928] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[03Feb2025 20:10:17.426] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[03Feb2025 20:10:17.924] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[03Feb2025 20:10:18.871] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
+[03Feb2025 20:10:18.927] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[03Feb2025 20:10:19.428] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[03Feb2025 20:10:19.933] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[03Feb2025 20:10:20.429] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[03Feb2025 20:10:20.921] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
+[03Feb2025 20:10:21.419] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[03Feb2025 20:10:21.924] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
+[03Feb2025 20:10:22.422] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[03Feb2025 20:10:22.557] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03Feb2025 20:10:22.559] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11644 ms
+[03Feb2025 20:10:22.571] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[03Feb2025 20:10:22.572] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[03Feb2025 20:10:22.818] [Netty Local Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[03Feb2025 20:10:22.821] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b2080c5a] logged in with entity id 549 at (6.5, 63.0, -6.5)
+[03Feb2025 20:10:22.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[03Feb2025 20:10:22.932] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[03Feb2025 20:10:23.091] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Feb2025 20:10:23.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldt543]'/minecraft:overworld
+[03Feb2025 20:10:23.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldt543]'/minecraft:the_nether
+[03Feb2025 20:10:23.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldt543]'/minecraft:the_end
+[03Feb2025 20:10:52.585] [ForkJoinPool.commonPool-worker-1/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Thanks for saying hello]
+[03Feb2025 20:10:52.587] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Thanks for saying hello]
+[03Feb2025 20:10:52.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dev> ola
+[03Feb2025 20:10:52.597] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <Dev> ola
+[03Feb2025 20:10:52.616] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4 advancements
+[03Feb2025 20:10:54.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dev> hola
+[03Feb2025 20:10:54.571] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <Dev> hola
+[03Feb2025 20:10:55.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Dev> hoa
+[03Feb2025 20:10:55.430] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <Dev> hoa
+[03Feb2025 20:10:55.756] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[03Feb2025 20:10:55.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldt543]'/minecraft:overworld
+[03Feb2025 20:10:55.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldt543]'/minecraft:the_nether
+[03Feb2025 20:10:55.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New Worldt543]'/minecraft:the_end

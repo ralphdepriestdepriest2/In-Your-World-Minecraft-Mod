@@ -31,7 +31,7 @@ public class ChickenDespawnProcedure {
 			return;
 		if (entity instanceof ChickenEntity) {
 			InYourWorldMod.queueServerWork(Mth.nextInt(RandomSource.create(), 600, 900), () -> {
-				if (!entity.level.isClientSide())
+				if (!entity.level().isClientSide())
 					entity.discard();
 			});
 		}

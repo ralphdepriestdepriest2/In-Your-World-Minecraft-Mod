@@ -1,0 +1,1994 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hijitus",
+      "type": "animatedentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hijitus",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/client/renderer/HijitusRenderer.java",
+          "src/main/java/official/ebalia/inyourworld/entity/HijitusEntity.java",
+          "src/main/java/official/ebalia/inyourworld/entity/model/HijitusModel.java"
+        ]
+      },
+      "path": "~/Hijitus"
+    },
+    {
+      "name": "HijitusAtacaAlJugador",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hijitus_ataca_al_jugador",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/HijitusAtacaAlJugadorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Hijitus"
+    },
+    {
+      "name": "HijitusAtaque",
+      "type": "animatedentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hijitus_ataque",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/entity/HijitusAtaqueEntity.java",
+          "src/main/java/official/ebalia/inyourworld/client/renderer/HijitusAtaqueRenderer.java",
+          "src/main/java/official/ebalia/inyourworld/entity/model/HijitusAtaqueModel.java"
+        ]
+      },
+      "path": "~/Hijitus/Hijitus Ataque"
+    },
+    {
+      "name": "HijitusADespawn",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hijitus_a_despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/HijitusADespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hijitus/Hijitus Ataque"
+    },
+    {
+      "name": "TeVeo",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "te_veo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/advancements/te_veo.json"
+        ]
+      },
+      "path": "~/Logros"
+    },
+    {
+      "name": "Behind",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "behind",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/advancements/behind.json"
+        ]
+      },
+      "path": "~/Logros"
+    },
+    {
+      "name": "MeetYou",
+      "type": "achievement",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meet_you",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/advancements/meet_you.json"
+        ]
+      },
+      "path": "~/Logros"
+    },
+    {
+      "name": "SayHello",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "say_hello",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/advancements/say_hello.json"
+        ]
+      },
+      "path": "~/Logros"
+    },
+    {
+      "name": "Antorchas",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antorchas",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/AntorchasProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Logros"
+    },
+    {
+      "name": "JugadorDiceHola",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jugador_dice_hola",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/JugadorDiceHolaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "text",
+            "type": "string"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Logros"
+    },
+    {
+      "name": "Chicken",
+      "type": "animatedentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/entity/ChickenEntity.java",
+          "src/main/java/official/ebalia/inyourworld/client/renderer/ChickenRenderer.java",
+          "src/main/java/official/ebalia/inyourworld/entity/model/ChickenModel.java"
+        ]
+      },
+      "path": "~/Pollo"
+    },
+    {
+      "name": "ChickenEntityIsHurt",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/ChickenEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pollo"
+    },
+    {
+      "name": "ChickenDespawn",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/ChickenDespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pollo"
+    },
+    {
+      "name": "ChickenCheck",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_check",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/ChickenCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pollo"
+    },
+    {
+      "name": "JugadorSeDuerme",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jugador_se_duerme",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/JugadorSeDuermeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pollo"
+    },
+    {
+      "name": "NocheGlobal",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noche_global",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/NocheGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Noche Random"
+    },
+    {
+      "name": "Noche",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noche",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/NocheProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Noche Random"
+    },
+    {
+      "name": "LogroH",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logro_h",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/LogroHProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hijitus"
+    },
+    {
+      "name": "Volador",
+      "type": "animatedentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volador",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/entity/model/VoladorModel.java",
+          "src/main/java/official/ebalia/inyourworld/client/renderer/VoladorRenderer.java",
+          "src/main/java/official/ebalia/inyourworld/entity/VoladorEntity.java"
+        ]
+      },
+      "path": "~/Hijitus/Entidad Voladora"
+    },
+    {
+      "name": "DespawnVolador",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_volador",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/DespawnVoladorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hijitus/Entidad Voladora"
+    },
+    {
+      "name": "AlEstarCercaVolador",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "al_estar_cerca_volador",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/AlEstarCercaVoladorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hijitus/Entidad Voladora"
+    },
+    {
+      "name": "TiempoDespawnVolador",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiempo_despawn_volador",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/TiempoDespawnVoladorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hijitus/Entidad Voladora"
+    },
+    {
+      "name": "LogroPorVolador",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logro_por_volador",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/LogroPorVoladorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hijitus/Entidad Voladora"
+    },
+    {
+      "name": "VoladorSpawnGlobal",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "volador_spawn_global",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/VoladorSpawnGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hijitus/Entidad Voladora"
+    },
+    {
+      "name": "HQuietoMirando",
+      "type": "animatedentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h_quieto_mirando",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/entity/HQuietoMirandoEntity.java",
+          "src/main/java/official/ebalia/inyourworld/client/renderer/HQuietoMirandoRenderer.java",
+          "src/main/java/official/ebalia/inyourworld/entity/model/HQuietoMirandoModel.java"
+        ]
+      },
+      "path": "~/Hijitus/Hijitus Mirando"
+    },
+    {
+      "name": "QuietoMirandoRango",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quieto_mirando_rango",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/QuietoMirandoRangoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hijitus/Hijitus Mirando"
+    },
+    {
+      "name": "DarEfectoDark",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dar_efecto_dark",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/DarEfectoDarkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Invisible"
+    },
+    {
+      "name": "InvisibleCobblestone",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/client/renderer/InvisibleCobblestoneRenderer.java",
+          "src/main/java/official/ebalia/inyourworld/entity/InvisibleCobblestoneEntity.java"
+        ]
+      },
+      "path": "~/Entidad Invisible"
+    },
+    {
+      "name": "DespawnDark",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_dark",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/DespawnDarkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Invisible"
+    },
+    {
+      "name": "AtaqueEntidad",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ataque_entidad",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/entity/AtaqueEntidadEntity.java",
+          "src/main/java/official/ebalia/inyourworld/client/renderer/AtaqueEntidadRenderer.java"
+        ]
+      },
+      "path": "~/Entidad Ataque"
+    },
+    {
+      "name": "AtaqueGlobal",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ataque_global",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/AtaqueGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Ataque"
+    },
+    {
+      "name": "AtaqueExisteONo",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ataque_existe_o_no",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/AtaqueExisteONoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Ataque"
+    },
+    {
+      "name": "DespawnAtaque",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_ataque",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/DespawnAtaqueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Ataque"
+    },
+    {
+      "name": "AtaqueyHA",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ataquey_ha",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/AtaqueyHAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Ataque"
+    },
+    {
+      "name": "EntidadStalker",
+      "type": "livingentity",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entidad_stalker",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/client/renderer/EntidadStalkerRenderer.java",
+          "src/main/java/official/ebalia/inyourworld/entity/EntidadStalkerEntity.java"
+        ]
+      },
+      "path": "~/Entidad Stalker"
+    },
+    {
+      "name": "DesaparecerStalker",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desaparecer_stalker",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/DesaparecerStalkerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Stalker"
+    },
+    {
+      "name": "StalkerGlobal",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalker_global",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/StalkerGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Stalker"
+    },
+    {
+      "name": "StalkerSpawn",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalker_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/StalkerSpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Stalker"
+    },
+    {
+      "name": "LogroStalker",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logro_stalker",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/LogroStalkerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Stalker"
+    },
+    {
+      "name": "DespawnStalker",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_stalker",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/DespawnStalkerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Stalker"
+    },
+    {
+      "name": "StalkerAnimales",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalker_animales",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/StalkerAnimalesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entidad Stalker"
+    },
+    {
+      "name": "SonidosGlobal",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonidos_global",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/SonidosGlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonidos"
+    },
+    {
+      "name": "Sonidos",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sonidos",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/SonidosProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Sonidos"
+    },
+    {
+      "name": "EstructuraFalsa1",
+      "type": "livingentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estructura_falsa_1",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/entity/EstructuraFalsa1Entity.java",
+          "src/main/java/official/ebalia/inyourworld/client/renderer/EstructuraFalsa1Renderer.java"
+        ]
+      },
+      "path": "~/Falsas Estructuras"
+    },
+    {
+      "name": "EstructuraFalsa1Despawn",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estructura_falsa_1_despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/EstructuraFalsa1DespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Falsas Estructuras"
+    },
+    {
+      "name": "EstructuraFalsa2",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estructura_falsa_2",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/client/renderer/EstructuraFalsa2Renderer.java",
+          "src/main/java/official/ebalia/inyourworld/entity/EstructuraFalsa2Entity.java"
+        ]
+      },
+      "path": "~/Falsas Estructuras"
+    },
+    {
+      "name": "EstructuraFalsa2Despawn",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "estructura_falsa_2_despawn",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/EstructuraFalsa2DespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Falsas Estructuras"
+    },
+    {
+      "name": "Falso1Global",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falso_1_global",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/Falso1GlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Falsas Estructuras"
+    },
+    {
+      "name": "Falso1Timer",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falso_1_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/Falso1TimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Falsas Estructuras"
+    },
+    {
+      "name": "Falso2Global",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falso_2_global",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/Falso2GlobalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Falsas Estructuras"
+    },
+    {
+      "name": "Falso2Timer",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falso_2_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/procedures/Falso2TimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Falsas Estructuras"
+    },
+    {
+      "name": "Cubes",
+      "type": "structure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cubes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/structure_set/cubes.json",
+          "src/main/resources/data/in_your_world/worldgen/template_pool/cubes.json",
+          "src/main/resources/data/in_your_world/worldgen/structure/cubes.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Glitch",
+      "type": "structure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/structure_set/glitch.json",
+          "src/main/resources/data/in_your_world/worldgen/template_pool/glitch.json",
+          "src/main/resources/data/in_your_world/worldgen/structure/glitch.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Sand",
+      "type": "structure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/template_pool/sand.json",
+          "src/main/resources/data/in_your_world/worldgen/structure_set/sand.json",
+          "src/main/resources/data/in_your_world/worldgen/structure/sand.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Dirt",
+      "type": "structure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/template_pool/dirt.json",
+          "src/main/resources/data/in_your_world/worldgen/structure_set/dirt.json",
+          "src/main/resources/data/in_your_world/worldgen/structure/dirt.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Stone",
+      "type": "structure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/template_pool/stone.json",
+          "src/main/resources/data/in_your_world/worldgen/structure/stone.json",
+          "src/main/resources/data/in_your_world/worldgen/structure_set/stone.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Cube",
+      "type": "structure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cube",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/structure/cube.json",
+          "src/main/resources/data/in_your_world/worldgen/template_pool/cube.json",
+          "src/main/resources/data/in_your_world/worldgen/structure_set/cube.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Island",
+      "type": "structure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "island",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/structure/island.json",
+          "src/main/resources/data/in_your_world/worldgen/structure_set/island.json",
+          "src/main/resources/data/in_your_world/worldgen/template_pool/island.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Cobblestone",
+      "type": "structure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/template_pool/cobblestone.json",
+          "src/main/resources/data/in_your_world/worldgen/structure_set/cobblestone.json",
+          "src/main/resources/data/in_your_world/worldgen/structure/cobblestone.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "ArbolMuerto",
+      "type": "structure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbol_muerto",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/in_your_world/worldgen/template_pool/arbol_muerto.json",
+          "src/main/resources/data/in_your_world/worldgen/structure_set/arbol_muerto.json",
+          "src/main/resources/data/in_your_world/worldgen/structure/arbol_muerto.json"
+        ]
+      },
+      "path": "~/Estructuras"
+    },
+    {
+      "name": "Configuracion",
+      "type": "config",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "configuracion",
+      "metadata": {
+        "files": [
+          "src/main/java/official/ebalia/inyourworld/configuration/ConfiguracionConfiguration.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "tiempoSpawn",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tiempoSpawn2",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tiempoAtaque",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tiempoSonidos",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "PlayerEntra",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "estructuraSpawn",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "estructuraSpawn2",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "voladorHijitus",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "tiempoNoche",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "caminartierra",
+      "files": [
+        "walkingefectdirt"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "caminarpiedra",
+      "files": [
+        "walkingstone"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-5",
+      "files": [
+        "minecraft-cave-sound-5"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-4",
+      "files": [
+        "minecraft-cave-sound-4"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-14",
+      "files": [
+        "minecraft-cave-sound-14"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-19",
+      "files": [
+        "minecraft-cave-sound-19"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-12",
+      "files": [
+        "minecraft-cave-sound-12"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-11",
+      "files": [
+        "minecraft-cave-sound-11"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cave-sound-7",
+      "files": [
+        "minecraft-cave-sound-7"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cueva21",
+      "files": [
+        "cueva21"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "corriendo",
+      "files": [
+        "running"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "cuevas",
+      "files": [
+        "cuevas8"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "entity.in_your_world.hijitus": "✞",
+      "entity.in_your_world.entidad_stalker": "✞",
+      "advancements.say_hello.descr": "привет",
+      "subtitles.cave-sound-7": "",
+      "item.in_your_world.hijitus_ataque_spawn_egg": "✞",
+      "advancements.te_veo.title": "I see you",
+      "advancements.say_hello.title": "Спасибо за привет ",
+      "subtitles.cave-sound-4": "",
+      "entity.in_your_world.invisible_cobblestone": "✞",
+      "entity.in_your_world.hijitus_ataque": "✞",
+      "advancements.behind.title": "Я позади тебя. Привет! ",
+      "subtitles.cave-sound-5": "",
+      "subtitles.cueva21": "",
+      "subtitles.cave-sound-11": "",
+      "subtitles.corriendo": "",
+      "advancements.te_veo.descr": "Я тебя вижу ",
+      "item.in_your_world.h_quieto_mirando_spawn_egg": "✞",
+      "item.in_your_world.volador_spawn_egg": "✞",
+      "entity.in_your_world.chicken": "✞",
+      "subtitles.cave-sound-14": "",
+      "entity.in_your_world.h_quieto_mirando": "✞",
+      "subtitles.cave-sound-12": "",
+      "subtitles.caminartierra": "",
+      "entity.in_your_world.volador": "✞",
+      "subtitles.cuevas": "",
+      "advancements.behind.descr": "поздороваться ",
+      "entity.in_your_world.estructura_falsa_2": "✞",
+      "subtitles.caminarpiedra": "",
+      "entity.in_your_world.estructura_falsa_1": "✞",
+      "subtitles.cave-sound-19": "",
+      "item.in_your_world.hijitus_spawn_egg": "✞",
+      "advancements.meet_you.descr": "Это длилось недолго :( ",
+      "item.in_your_world.chicken_spawn_egg": "✞",
+      "advancements.meet_you.title": "Рад встрече ",
+      "entity.in_your_world.ataque_entidad": "✞"
+    },
+    "it_it": {
+      "entity.in_your_world.hijitus": "✞",
+      "entity.in_your_world.entidad_stalker": "✞",
+      "advancements.say_hello.descr": "Ciao ",
+      "subtitles.cave-sound-7": "",
+      "item.in_your_world.hijitus_ataque_spawn_egg": "✞",
+      "advancements.te_veo.title": "Ti vedo ",
+      "advancements.say_hello.title": "Grazie per avermi salutato ",
+      "subtitles.cave-sound-4": "",
+      "entity.in_your_world.invisible_cobblestone": "✞",
+      "entity.in_your_world.hijitus_ataque": "✞",
+      "advancements.behind.title": "Sono dietro di te. Ciao! ",
+      "subtitles.cave-sound-5": "",
+      "subtitles.cueva21": "",
+      "subtitles.cave-sound-11": "",
+      "subtitles.corriendo": "",
+      "advancements.te_veo.descr": "Ti vedo ",
+      "item.in_your_world.h_quieto_mirando_spawn_egg": "✞",
+      "item.in_your_world.volador_spawn_egg": "✞",
+      "entity.in_your_world.chicken": "✞",
+      "subtitles.cave-sound-14": "",
+      "entity.in_your_world.h_quieto_mirando": "✞",
+      "subtitles.cave-sound-12": "",
+      "subtitles.caminartierra": "",
+      "entity.in_your_world.volador": "✞",
+      "subtitles.cuevas": "",
+      "advancements.behind.descr": "saluta ",
+      "entity.in_your_world.estructura_falsa_2": "✞",
+      "subtitles.caminarpiedra": "",
+      "entity.in_your_world.estructura_falsa_1": "✞",
+      "subtitles.cave-sound-19": "",
+      "item.in_your_world.hijitus_spawn_egg": "✞",
+      "advancements.meet_you.descr": "È stato poco tempo :( ",
+      "item.in_your_world.chicken_spawn_egg": "✞",
+      "advancements.meet_you.title": "Piacere di conoscerti ",
+      "entity.in_your_world.ataque_entidad": "✞"
+    },
+    "en_us": {
+      "entity.in_your_world.hijitus": "✞",
+      "entity.in_your_world.entidad_stalker": "✞",
+      "advancements.say_hello.descr": "hello",
+      "subtitles.cave-sound-7": "",
+      "item.in_your_world.hijitus_ataque_spawn_egg": "✞ Spawn Egg",
+      "advancements.te_veo.title": "I see you",
+      "advancements.say_hello.title": "Thanks for saying hello",
+      "subtitles.cave-sound-4": "",
+      "entity.in_your_world.invisible_cobblestone": "✞",
+      "entity.in_your_world.hijitus_ataque": "✞",
+      "advancements.behind.title": "I am behind you. Hello!",
+      "subtitles.cave-sound-5": "",
+      "subtitles.cueva21": "",
+      "subtitles.cave-sound-11": "",
+      "subtitles.corriendo": "",
+      "advancements.te_veo.descr": "I see you",
+      "item.in_your_world.h_quieto_mirando_spawn_egg": "✞ Spawn Egg",
+      "item.in_your_world.volador_spawn_egg": "✞ Spawn Egg",
+      "entity.in_your_world.chicken": "✞",
+      "subtitles.cave-sound-14": "",
+      "entity.in_your_world.h_quieto_mirando": "✞",
+      "subtitles.cave-sound-12": "",
+      "subtitles.caminartierra": "",
+      "entity.in_your_world.volador": "✞",
+      "subtitles.cuevas": "",
+      "advancements.behind.descr": "say hello",
+      "entity.in_your_world.estructura_falsa_2": "✞",
+      "subtitles.caminarpiedra": "",
+      "entity.in_your_world.estructura_falsa_1": "✞",
+      "subtitles.cave-sound-19": "",
+      "item.in_your_world.hijitus_spawn_egg": "✞ Spawn Egg",
+      "advancements.meet_you.descr": "It was a short time :(",
+      "item.in_your_world.chicken_spawn_egg": "✞ Spawn Egg",
+      "advancements.meet_you.title": "Nice to meet you",
+      "entity.in_your_world.ataque_entidad": "✞"
+    },
+    "es_ar": {
+      "entity.in_your_world.hijitus": "✞",
+      "entity.in_your_world.entidad_stalker": "✞",
+      "advancements.say_hello.descr": "hola",
+      "subtitles.cave-sound-7": "",
+      "item.in_your_world.hijitus_ataque_spawn_egg": "✞",
+      "advancements.te_veo.title": "Te veo",
+      "advancements.say_hello.title": "Gracias por saludar",
+      "subtitles.cave-sound-4": "",
+      "entity.in_your_world.invisible_cobblestone": "✞",
+      "entity.in_your_world.hijitus_ataque": "✞",
+      "advancements.behind.title": "Estoy detras de ti. Hola",
+      "subtitles.cave-sound-5": "",
+      "subtitles.cueva21": "",
+      "subtitles.cave-sound-11": "",
+      "subtitles.corriendo": "",
+      "advancements.te_veo.descr": "Te veo",
+      "item.in_your_world.h_quieto_mirando_spawn_egg": "✞",
+      "item.in_your_world.volador_spawn_egg": "✞",
+      "entity.in_your_world.chicken": "✞",
+      "subtitles.cave-sound-14": "",
+      "entity.in_your_world.h_quieto_mirando": "✞",
+      "subtitles.cave-sound-12": "",
+      "subtitles.caminartierra": "",
+      "entity.in_your_world.volador": "✞",
+      "subtitles.cuevas": "",
+      "advancements.behind.descr": "di hola",
+      "entity.in_your_world.estructura_falsa_2": "✞",
+      "subtitles.caminarpiedra": "",
+      "entity.in_your_world.estructura_falsa_1": "✞",
+      "subtitles.cave-sound-19": "",
+      "item.in_your_world.hijitus_spawn_egg": "✞",
+      "advancements.meet_you.descr": "Fue poco tiempo :(",
+      "item.in_your_world.chicken_spawn_egg": "✞",
+      "advancements.meet_you.title": "Encantado de conocerte",
+      "entity.in_your_world.ataque_entidad": "✞"
+    },
+    "es_mx": {
+      "entity.in_your_world.hijitus": "✞",
+      "entity.in_your_world.entidad_stalker": "✞",
+      "advancements.say_hello.descr": "hola",
+      "subtitles.cave-sound-7": "",
+      "item.in_your_world.hijitus_ataque_spawn_egg": "✞",
+      "advancements.te_veo.title": "Te veo",
+      "advancements.say_hello.title": "Gracias por saludar",
+      "subtitles.cave-sound-4": "",
+      "entity.in_your_world.invisible_cobblestone": "✞",
+      "entity.in_your_world.hijitus_ataque": "✞",
+      "advancements.behind.title": "Estoy detras de ti. Hola",
+      "subtitles.cave-sound-5": "",
+      "subtitles.cueva21": "",
+      "subtitles.cave-sound-11": "",
+      "subtitles.corriendo": "",
+      "advancements.te_veo.descr": "Te veo",
+      "item.in_your_world.h_quieto_mirando_spawn_egg": "✞",
+      "item.in_your_world.volador_spawn_egg": "✞",
+      "entity.in_your_world.chicken": "✞",
+      "subtitles.cave-sound-14": "",
+      "entity.in_your_world.h_quieto_mirando": "✞",
+      "subtitles.cave-sound-12": "",
+      "subtitles.caminartierra": "",
+      "entity.in_your_world.volador": "✞",
+      "subtitles.cuevas": "",
+      "advancements.behind.descr": "di hola",
+      "entity.in_your_world.estructura_falsa_2": "✞",
+      "subtitles.caminarpiedra": "",
+      "entity.in_your_world.estructura_falsa_1": "✞",
+      "subtitles.cave-sound-19": "",
+      "item.in_your_world.hijitus_spawn_egg": "✞",
+      "advancements.meet_you.descr": "Fue poco tiempo :(",
+      "item.in_your_world.chicken_spawn_egg": "✞",
+      "advancements.meet_you.title": "Encantado de conocerte",
+      "entity.in_your_world.ataque_entidad": "✞"
+    },
+    "pt_br": {
+      "entity.in_your_world.hijitus": "✞",
+      "entity.in_your_world.entidad_stalker": "✞",
+      "advancements.say_hello.descr": "olá ",
+      "subtitles.cave-sound-7": "",
+      "item.in_your_world.hijitus_ataque_spawn_egg": "✞",
+      "advancements.te_veo.title": "Te veo",
+      "advancements.say_hello.title": "Obrigado por dizer olá ",
+      "subtitles.cave-sound-4": "",
+      "entity.in_your_world.invisible_cobblestone": "✞",
+      "entity.in_your_world.hijitus_ataque": "✞",
+      "advancements.behind.title": "Estou atrás de você. Olá ",
+      "subtitles.cave-sound-5": "",
+      "subtitles.cueva21": "",
+      "subtitles.cave-sound-11": "",
+      "subtitles.corriendo": "",
+      "advancements.te_veo.descr": "Eu vejo você ",
+      "item.in_your_world.h_quieto_mirando_spawn_egg": "✞",
+      "item.in_your_world.volador_spawn_egg": "✞",
+      "entity.in_your_world.chicken": "✞",
+      "subtitles.cave-sound-14": "",
+      "entity.in_your_world.h_quieto_mirando": "✞",
+      "subtitles.cave-sound-12": "",
+      "subtitles.caminartierra": "",
+      "entity.in_your_world.volador": "✞",
+      "subtitles.cuevas": "",
+      "advancements.behind.descr": "diga olá ",
+      "entity.in_your_world.estructura_falsa_2": "✞",
+      "subtitles.caminarpiedra": "",
+      "entity.in_your_world.estructura_falsa_1": "✞",
+      "subtitles.cave-sound-19": "",
+      "item.in_your_world.hijitus_spawn_egg": "✞",
+      "advancements.meet_you.descr": "Foi pouco tempo :( ",
+      "item.in_your_world.chicken_spawn_egg": "✞",
+      "advancements.meet_you.title": "Prazer em conhecê-lo ",
+      "entity.in_your_world.ataque_entidad": "✞"
+    },
+    "fr_fr": {
+      "entity.in_your_world.hijitus": "✞",
+      "entity.in_your_world.entidad_stalker": "✞",
+      "advancements.say_hello.descr": "salut",
+      "subtitles.cave-sound-7": "",
+      "item.in_your_world.hijitus_ataque_spawn_egg": "✞",
+      "advancements.te_veo.title": "je te vois ",
+      "advancements.say_hello.title": "Merci d\u0027avoir dit bonjour ",
+      "subtitles.cave-sound-4": "",
+      "entity.in_your_world.invisible_cobblestone": "✞",
+      "entity.in_your_world.hijitus_ataque": "✞",
+      "advancements.behind.title": "Je suis derrière toi.Salut!",
+      "subtitles.cave-sound-5": "",
+      "subtitles.cueva21": "",
+      "subtitles.cave-sound-11": "",
+      "subtitles.corriendo": "",
+      "advancements.te_veo.descr": "je te vois ",
+      "item.in_your_world.h_quieto_mirando_spawn_egg": "✞",
+      "item.in_your_world.volador_spawn_egg": "✞",
+      "entity.in_your_world.chicken": "✞",
+      "subtitles.cave-sound-14": "",
+      "entity.in_your_world.h_quieto_mirando": "✞",
+      "subtitles.cave-sound-12": "",
+      "subtitles.caminartierra": "",
+      "entity.in_your_world.volador": "✞",
+      "subtitles.cuevas": "",
+      "advancements.behind.descr": "dire bonjour ",
+      "entity.in_your_world.estructura_falsa_2": "✞",
+      "subtitles.caminarpiedra": "",
+      "entity.in_your_world.estructura_falsa_1": "✞",
+      "subtitles.cave-sound-19": "",
+      "item.in_your_world.hijitus_spawn_egg": "✞",
+      "advancements.meet_you.descr": "C\u0027était peu de temps :( ",
+      "item.in_your_world.chicken_spawn_egg": "✞",
+      "advancements.meet_you.title": "Ravi de vous rencontrer ",
+      "entity.in_your_world.ataque_entidad": "✞"
+    },
+    "de_de": {
+      "entity.in_your_world.hijitus": "✞",
+      "entity.in_your_world.entidad_stalker": "✞",
+      "advancements.say_hello.descr": "hallo",
+      "subtitles.cave-sound-7": "",
+      "item.in_your_world.hijitus_ataque_spawn_egg": "✞",
+      "advancements.te_veo.title": "Ich sehe dich",
+      "advancements.say_hello.title": "Danke für die Begrüßung",
+      "subtitles.cave-sound-4": "",
+      "entity.in_your_world.invisible_cobblestone": "✞",
+      "entity.in_your_world.hijitus_ataque": "✞",
+      "advancements.behind.title": "Ich bin hinter dir. Hallo!",
+      "subtitles.cave-sound-5": "",
+      "subtitles.cueva21": "",
+      "subtitles.cave-sound-11": "",
+      "subtitles.corriendo": "",
+      "advancements.te_veo.descr": "Ich sehe dich",
+      "item.in_your_world.h_quieto_mirando_spawn_egg": "✞",
+      "item.in_your_world.volador_spawn_egg": "✞",
+      "entity.in_your_world.chicken": "✞",
+      "subtitles.cave-sound-14": "",
+      "entity.in_your_world.h_quieto_mirando": "✞",
+      "subtitles.cave-sound-12": "",
+      "subtitles.caminartierra": "",
+      "entity.in_your_world.volador": "✞",
+      "subtitles.cuevas": "",
+      "advancements.behind.descr": "sag Hallo ",
+      "entity.in_your_world.estructura_falsa_2": "✞",
+      "subtitles.caminarpiedra": "",
+      "entity.in_your_world.estructura_falsa_1": "✞",
+      "subtitles.cave-sound-19": "",
+      "item.in_your_world.hijitus_spawn_egg": "✞",
+      "advancements.meet_you.descr": "Es war eine kurze Zeit :(",
+      "item.in_your_world.chicken_spawn_egg": "✞",
+      "advancements.meet_you.title": "Schön, Sie kennenzulernen",
+      "entity.in_your_world.ataque_entidad": "✞"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Hijitus",
+        "children": [
+          {
+            "name": "Hijitus Ataque",
+            "children": []
+          },
+          {
+            "name": "Entidad Voladora",
+            "children": []
+          },
+          {
+            "name": "Hijitus Mirando",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Entidad Invisible",
+        "children": []
+      },
+      {
+        "name": "Estructuras",
+        "children": []
+      },
+      {
+        "name": "Logros",
+        "children": []
+      },
+      {
+        "name": "Falsas Estructuras",
+        "children": []
+      },
+      {
+        "name": "Entidad Ataque",
+        "children": []
+      },
+      {
+        "name": "Sonidos",
+        "children": []
+      },
+      {
+        "name": "Entidad Stalker",
+        "children": []
+      },
+      {
+        "name": "Pollo",
+        "children": []
+      },
+      {
+        "name": "Noche Random",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "in_your_world",
+    "modName": "In Your World",
+    "version": "2.0",
+    "description": "no information",
+    "author": "EBALIA",
+    "websiteURL": "https://www.patreon.com/EBALIA",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logro1aaaa",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "use_compiled_mods",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "By EBALIA",
+    "modElementsPackage": "official.ebalia.inyourworld",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

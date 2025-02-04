@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[45,)"
+loaderVersion="[47,)"
 license="MIT License"
 
 [[mods]]
 modId="in_your_world"
-version="1.0"
+version="2.0"
 displayName="In Your World"
 displayURL="https://www.patreon.com/EBALIA"
 logoFile="logo.png"
@@ -15,7 +15,7 @@ description="no information"
 [[dependencies.in_your_world]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 

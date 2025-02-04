@@ -31,7 +31,7 @@ public class HijitusAtacaAlJugadorProcedure {
 			return;
 		if (ConfiguracionConfiguration.DESPAWNHIJITUS.get()) {
 			if (sourceentity instanceof HijitusEntity && entity instanceof Player) {
-				if (!sourceentity.level.isClientSide())
+				if (!sourceentity.level().isClientSide())
 					sourceentity.discard();
 			}
 		}

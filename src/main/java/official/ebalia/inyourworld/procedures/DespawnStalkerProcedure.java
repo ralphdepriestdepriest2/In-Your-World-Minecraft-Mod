@@ -20,7 +20,7 @@ import javax.annotation.Nullable;
 public class DespawnStalkerProcedure {
 	@SubscribeEvent
 	public static void onEntityTick(LivingEvent.LivingTickEvent event) {
-		execute(event, event.getEntity().level, event.getEntity());
+		execute(event, event.getEntity().level(), event.getEntity());
 	}
 
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -32,7 +32,7 @@ public class DespawnStalkerProcedure {
 			return;
 		if (entity instanceof EntidadStalkerEntity) {
 			InYourWorldMod.queueServerWork((int) Mth.nextDouble(RandomSource.create(), (double) ConfiguracionConfiguration.STALKERDESPAWNMIN.get(), (double) ConfiguracionConfiguration.STALKERDESPAWNMAX.get()), () -> {
-				if (!entity.level.isClientSide())
+				if (!entity.level().isClientSide())
 					entity.discard();
 			});
 		}

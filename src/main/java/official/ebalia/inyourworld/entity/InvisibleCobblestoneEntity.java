@@ -36,7 +36,7 @@ public class InvisibleCobblestoneEntity extends PathfinderMob {
 
 	public InvisibleCobblestoneEntity(EntityType<InvisibleCobblestoneEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(true);
 		setPersistenceRequired();
@@ -104,7 +104,7 @@ public class InvisibleCobblestoneEntity extends PathfinderMob {
 	@Override
 	public void playerTouch(Player sourceentity) {
 		super.playerTouch(sourceentity);
-		DarEfectoDarkProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		DarEfectoDarkProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

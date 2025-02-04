@@ -40,7 +40,7 @@ public class AtaqueEntidadEntity extends PathfinderMob {
 
 	public AtaqueEntidadEntity(EntityType<AtaqueEntidadEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();

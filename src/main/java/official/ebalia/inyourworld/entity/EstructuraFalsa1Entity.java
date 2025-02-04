@@ -37,7 +37,7 @@ public class EstructuraFalsa1Entity extends PathfinderMob {
 
 	public EstructuraFalsa1Entity(EntityType<EstructuraFalsa1Entity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -111,7 +111,7 @@ public class EstructuraFalsa1Entity extends PathfinderMob {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		EstructuraFalsa1DespawnProcedure.execute(this.level, this);
+		EstructuraFalsa1DespawnProcedure.execute(this.level(), this);
 	}
 
 	@Override

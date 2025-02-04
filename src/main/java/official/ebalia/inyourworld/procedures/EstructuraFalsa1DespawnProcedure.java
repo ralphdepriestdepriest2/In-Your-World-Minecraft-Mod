@@ -20,7 +20,7 @@ import javax.annotation.Nullable;
 public class EstructuraFalsa1DespawnProcedure {
 	@SubscribeEvent
 	public static void onEntityTick(LivingEvent.LivingTickEvent event) {
-		execute(event, event.getEntity().level, event.getEntity());
+		execute(event, event.getEntity().level(), event.getEntity());
 	}
 
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -32,7 +32,7 @@ public class EstructuraFalsa1DespawnProcedure {
 			return;
 		if (entity instanceof EstructuraFalsa1Entity) {
 			InYourWorldMod.queueServerWork((int) Mth.nextDouble(RandomSource.create(), (double) ConfiguracionConfiguration.DURATION1MIN.get(), (double) ConfiguracionConfiguration.DURATION1MAX.get()), () -> {
-				if (!entity.level.isClientSide())
+				if (!entity.level().isClientSide())
 					entity.discard();
 			});
 		}

@@ -23,7 +23,7 @@ public class DarEfectoDarkProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level, event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
+			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
 		}
 	}
 
@@ -36,9 +36,9 @@ public class DarEfectoDarkProcedure {
 			return;
 		if (ConfiguracionConfiguration.EFECTODARK.get()) {
 			if (!world.getEntitiesOfClass(InvisibleCobblestoneEntity.class, AABB.ofSize(new Vec3(x, y, z), 5, 5, 5), e -> true).isEmpty()) {
-				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 40, 100, false, false));
-				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 					_entity.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 40, 100, false, false));
 			}
 		}

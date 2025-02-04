@@ -14,7 +14,6 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
@@ -28,7 +27,7 @@ public class Falso1TimerProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level, event.player.getX(), event.player.getY(), event.player.getZ());
+			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ());
 		}
 	}
 
@@ -42,11 +41,11 @@ public class Falso1TimerProcedure {
 				if (world.canSeeSkyFromBelowWater(BlockPos.containing(x, y, z))) {
 					if (!(!world.getEntitiesOfClass(EstructuraFalsa1Entity.class, AABB.ofSize(new Vec3(x, y, z), 4000, 4000, 4000), e -> true).isEmpty())) {
 						if (world instanceof ServerLevel _level) {
-							Entity entityToSpawn = new EstructuraFalsa1Entity(InYourWorldModEntities.ESTRUCTURA_FALSA_1.get(), _level);
-							entityToSpawn.moveTo((x + Mth.nextDouble(RandomSource.create(), 80, 110)), (y + Mth.nextDouble(RandomSource.create(), 80, 125)), z, world.getRandom().nextFloat() * 360F, 0);
-							if (entityToSpawn instanceof Mob _mobToSpawn)
-								_mobToSpawn.finalizeSpawn(_level, _level.getCurrentDifficultyAt(entityToSpawn.blockPosition()), MobSpawnType.MOB_SUMMONED, null, null);
-							_level.addFreshEntity(entityToSpawn);
+							Entity entityToSpawn = InYourWorldModEntities.ESTRUCTURA_FALSA_1.get().spawn(_level, BlockPos.containing(x + Mth.nextDouble(RandomSource.create(), 80, 110), y + Mth.nextDouble(RandomSource.create(), 80, 125), z),
+									MobSpawnType.MOB_SUMMONED);
+							if (entityToSpawn != null) {
+								entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+							}
 						}
 					}
 				}

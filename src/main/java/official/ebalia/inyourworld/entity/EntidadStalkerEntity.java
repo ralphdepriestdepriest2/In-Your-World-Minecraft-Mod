@@ -35,7 +35,7 @@ public class EntidadStalkerEntity extends Monster {
 
 	public EntidadStalkerEntity(EntityType<EntidadStalkerEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0f;
+		setMaxUpStep(0f);
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();

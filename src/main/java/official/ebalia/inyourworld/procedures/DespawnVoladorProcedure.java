@@ -20,7 +20,7 @@ import javax.annotation.Nullable;
 public class DespawnVoladorProcedure {
 	@SubscribeEvent
 	public static void onEntityTick(LivingEvent.LivingTickEvent event) {
-		execute(event, event.getEntity().level, event.getEntity());
+		execute(event, event.getEntity().level(), event.getEntity());
 	}
 
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -33,7 +33,7 @@ public class DespawnVoladorProcedure {
 		if (ConfiguracionConfiguration.ENABLEDESPAWN.get()) {
 			if (entity instanceof VoladorEntity) {
 				InYourWorldMod.queueServerWork((int) Mth.nextDouble(RandomSource.create(), (double) ConfiguracionConfiguration.INVISIBLESTALKDESPAWNMIN.get(), (double) ConfiguracionConfiguration.INVISIBLESTALKDESPAWNMAX.get()), () -> {
-					if (!entity.level.isClientSide())
+					if (!entity.level().isClientSide())
 						entity.discard();
 				});
 			}

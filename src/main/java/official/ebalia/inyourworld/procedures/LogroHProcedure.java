@@ -19,7 +19,6 @@ import net.minecraft.advancements.Advancement;
 
 import javax.annotation.Nullable;
 
-import java.util.stream.Collectors;
 import java.util.List;
 import java.util.Comparator;
 
@@ -28,7 +27,7 @@ public class LogroHProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level, event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
+			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
 		}
 	}
 
@@ -41,7 +40,7 @@ public class LogroHProcedure {
 			return;
 		{
 			final Vec3 _center = new Vec3(x, y, z);
-			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1.2 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
+			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(1.2 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 			for (Entity entityiterator : _entfound) {
 				if (entityiterator instanceof HijitusEntity && entity instanceof Player) {
 					if (entity instanceof ServerPlayer _player) {

@@ -15,7 +15,6 @@ import net.minecraft.world.entity.Entity;
 
 import javax.annotation.Nullable;
 
-import java.util.stream.Collectors;
 import java.util.List;
 import java.util.Comparator;
 
@@ -24,7 +23,7 @@ public class QuietoMirandoRangoProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level, event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
+			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
 		}
 	}
 
@@ -40,11 +39,11 @@ public class QuietoMirandoRangoProcedure {
 		{
 			final Vec3 _center = new Vec3((x + entity.getLookAngle().x * Range), (y + entity.getLookAngle().y * Range), (z + entity.getLookAngle().z * Range));
 			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(((double) ConfiguracionConfiguration.DESPAWNAROUNDH.get()) / 2d), e -> true).stream()
-					.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
+					.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 			for (Entity entityiterator : _entfound) {
 				if (!(entityiterator == entity) && entityiterator instanceof HQuietoMirandoEntity) {
 					Found = true;
-					if (!entityiterator.level.isClientSide())
+					if (!entityiterator.level().isClientSide())
 						entityiterator.discard();
 					break;
 				}

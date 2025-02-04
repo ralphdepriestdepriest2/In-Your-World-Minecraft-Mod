@@ -122,7 +122,7 @@ public class ChickenEntity extends PathfinderMob implements GeoEntity {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
-		ChickenEntityIsHurtProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		ChickenEntityIsHurtProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 		return super.hurt(source, amount);
 	}
 

@@ -14,7 +14,6 @@ import net.minecraft.world.entity.Entity;
 
 import javax.annotation.Nullable;
 
-import java.util.stream.Collectors;
 import java.util.List;
 import java.util.Comparator;
 
@@ -23,7 +22,7 @@ public class DesaparecerStalkerProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
-			execute(event, event.player.level, event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
+			execute(event, event.player.level(), event.player.getX(), event.player.getY(), event.player.getZ(), event.player);
 		}
 	}
 
@@ -38,11 +37,11 @@ public class DesaparecerStalkerProcedure {
 		boolean Found2 = false;
 		{
 			final Vec3 _center = new Vec3((x + entity.getLookAngle().x * Range2), (y + entity.getLookAngle().y * Range2), (z + entity.getLookAngle().z * Range2));
-			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(0.4 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
+			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(0.4 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
 			for (Entity entityiterator : _entfound) {
 				if (!(entityiterator == entity) && entityiterator instanceof EntidadStalkerEntity) {
 					Found2 = true;
-					if (!entityiterator.level.isClientSide())
+					if (!entityiterator.level().isClientSide())
 						entityiterator.discard();
 					break;
 				}
